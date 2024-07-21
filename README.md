@@ -2,6 +2,16 @@
 
 This is a new project.
 
+TO DO
+
+1. 이메일 (파일 첨부 가능), 선택 등등
+2. 언론, 사진, 논문, 동영상 업로드와 show
+3. 데이터베이스
+4. 네비게이션 설정
+5. 결제 paypal?
+6. 영어 한글 페이지
+7.
+
 Main branch에서 개인 branch로 merge 및 실행 순서
 
 1. `cd` into project directory.
