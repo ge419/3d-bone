@@ -1,9 +1,14 @@
 # React + TypeScript + Vite
 
 This is a new project.
-asdfasdf
 
-asdfasdfasdfa
+Main branch에서 개인 branch로 merge 및 실행 순서
+
+1. `cd` into project directory.
+2. Commit/push any changes in current branch, and `git checkout main` --> `git pull`
+3. `git checkout {back to personal branch}`, `git merge main`, resolve merge conflict.
+4. `npm install` to install any additional packages.
+5. `npm run dev` to run the website.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
