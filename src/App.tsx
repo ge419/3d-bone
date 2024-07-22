@@ -1,14 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import { useState } from "react";
+// import reactLogo from "./assets/react.svg";
+// import viteLogo from "/vite.svg";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavBar from "./components/NavBar";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>
+      <NavBar />
+      <Routes>
+        <Route path="/home" Component={Home} />
+        <Route path="/about" Component={About} />
+      </Routes>
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -27,9 +37,9 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,14 +1,24 @@
 # React + TypeScript + Vite
 
 This is a new project.
-TO Do
-1) 이메일 (파일 첨부 가능), 선택 등등
-2) 언론, 사진, 논문, 동영상 업로드와 show
-3) 데이터베이스
-4) 네비게이션 설정
-5) 결제 paypal?
-6) 영어 한글 페이지
-7) 
+
+TO DO
+
+1. 이메일 (파일 첨부 가능), 선택 등등
+2. 언론, 사진, 논문, 동영상 업로드와 show
+3. 데이터베이스
+4. 네비게이션 설정
+5. 결제 paypal?
+6. 영어 한글 페이지
+7.
+
+Main branch에서 개인 branch로 merge 및 실행 순서
+
+1. `cd` into project directory.
+2. Commit/push any changes in current branch, and `git checkout main` --> `git pull`
+3. `git checkout {back to personal branch}`, `git merge main`, resolve merge conflict.
+4. `npm install` to install any additional packages.
+5. `npm run dev` to run the website.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
