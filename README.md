@@ -2,8 +2,19 @@
 
 This is a new project.
 
-TO DO
+TO DO (2024/10/14) Alpha Version
+1) E-mail service
+2) Skeleton 마무리
+3) Newsletter 수동 Component 만들기
+4) 디자인 마무리 후 alpha 배포
+5) blog, oncology, for professional, login 임시 삭제
 
+Beta version
+1) Newsletter editing tool
+2) Database
+3) Login tool
+
+Archive--------------------
 1. 이메일 (파일 첨부 가능), 선택 등등
 2. 언론, 사진, 논문, 동영상 업로드와 show
 3. 데이터베이스
@@ -11,7 +22,7 @@ TO DO
 5. 결제 paypal?
 6. 영어 한글 페이지
 7.
-
+---------------------------
 Main branch에서 개인 branch로 merge 및 실행 순서
 
 1. `cd` into project directory.
